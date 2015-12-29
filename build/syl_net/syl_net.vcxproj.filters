@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\protocol">
+      <UniqueIdentifier>{5ff73166-5e96-4383-b590-4397c1e4a73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protocol">
+      <UniqueIdentifier>{d16b48ec-6b2b-4f7e-9b31-9e89cab20366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{73155c79-00cd-4510-8f69-fde9d6f9420e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{50d6822e-e37a-4764-97cd-090b614ce983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{2bac5014-aded-449e-9c6c-6615034ffbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net">
+      <UniqueIdentifier>{7aaf8745-b811-4167-a530-32a23f6cce69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\featured">
+      <UniqueIdentifier>{5a01c8fe-fda5-4165-9b0f-4162d9e526ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\featured">
+      <UniqueIdentifier>{7c3c5f68-45aa-4331-8f23-3b70f59d9b2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\syl_net\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\protocol\protocol.cpp">
+      <Filter>Source Files\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\util\serialization.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\net\packet.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\protocol\tcp.cpp">
+      <Filter>Source Files\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\protocol\udp.cpp">
+      <Filter>Source Files\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\protocol\tcp_client.cpp">
+      <Filter>Source Files\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\protocol\tcp_server.cpp">
+      <Filter>Source Files\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\net\connection.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\net\client.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\featured\broadcaster.cpp">
+      <Filter>Source Files\featured</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syl_net\featured\browser.cpp">
+      <Filter>Source Files\featured</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\syl_net\protocol\protocol.h">
+      <Filter>Header Files\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\util\serialization.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\net\networkable.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\net\packet.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\net\client.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\protocol\tcp.h">
+      <Filter>Header Files\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\protocol\udp.h">
+      <Filter>Header Files\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\protocol\tcp_client.h">
+      <Filter>Header Files\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\protocol\tcp_server.h">
+      <Filter>Header Files\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\net\connection.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\featured\broadcaster.h">
+      <Filter>Header Files\featured</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\syl_net\featured\browser.h">
+      <Filter>Header Files\featured</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\syl_net\protocol\protocol.tcc">
+      <Filter>Source Files\protocol</Filter>
+    </None>
+    <None Include="..\..\src\syl_net\net\networkable.tcc">
+      <Filter>Source Files\net</Filter>
+    </None>
+    <None Include="..\..\src\syl_net\util\serialization.tcc">
+      <Filter>Source Files\util</Filter>
+    </None>
+  </ItemGroup>
+</Project>
